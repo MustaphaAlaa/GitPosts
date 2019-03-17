@@ -1,0 +1,25 @@
+---------------------------
+i need to make a register System
+---------------------------
+1- register -> insert data into database.
+2- login -> Select and fetch this data from database then session this data.
+3- logout -> unsession this login session.
+---------------------------
+File Strucutre 
+-----
+first manage Url in Core
+then the controller file {
+    1- users{
+    
+    register-> {register Data and require on __constrcut function model file
+    maker sure there's no email or Phone Number signed in database
+    then insert data}
+
+    Login-> {
+        fetch data from database and session it make sure that data is signed in database 
+     }
+    }
+} 
+
+
+---------
